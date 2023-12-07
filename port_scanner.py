@@ -1,4 +1,5 @@
 """
+Josiah Anderson
 A simple TCP connect port scanner.
 Derived from: "Violent Python, A Cookbook for Hackers" by TJ O'Connor
 """
