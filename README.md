@@ -1,5 +1,18 @@
-Sample use and output:
+These are a collection of scripts, with the nmap ones being automations of the process I used during PWK/PEN-200 for the labs and exam.
 
+The general approach is:
+1) A quick scan of top ports for low hanging fruit to immediately begin further enumeration.
+2) A full scan to find all open ports.
+3) A service scan of all confirmed open ports. This is for deep diving into services.
+
+During the labs and exam I performed these scans manually, but I think using a script to plugin the IPs would yield faster results.
+
+`nmap2_thread_scanner.py` - This version uses the improved nmapthon2 library and makes better use of threading and asynchronous scanning.
+`nmap_thread_scanner.py` - Nmap / nmapthon scanner with threads.
+`nmap_scanner.py` - Nmap scanner that uses nmapthon.
+
+
+Sample use and output:
 
 ```
 ┌──(darkstar㉿kali)-[~/Code]
