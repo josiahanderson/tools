@@ -8,7 +8,9 @@ The general approach is:
 During the labs and exam I performed these scans manually, but I think using a script to plugin the IPs would yield faster results.
 
 `nmap2_thread_scanner.py` - This version uses the improved nmapthon2 library and makes better use of threading and asynchronous scanning.
+
 `nmap_thread_scanner.py` - Nmap / nmapthon scanner with threads.
+
 `nmap_scanner.py` - Nmap scanner that uses nmapthon.
 
 
